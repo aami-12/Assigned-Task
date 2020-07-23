@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diginote Student Dashboard</title>
+  <link rel="stylesheet" href="Resources/CSS/Dashboard.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background-color:#f5f5f5;">
+
+  <nav class="navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+      <button type="button" class="navbar-toggle navhidee" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar barrrr"></span>
+          <span class="icon-bar barrrr"></span>
+          <span class="icon-bar barrrr"></span> 
+      </button>
+      <a class="navbar-brand" href="#" style="color:#fff">DASHBOARD</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:#fff;font-size: 20px; background-color: transparent;">
+                      Semester <span class="caret"></span></a>
+                      <ul class="dropdown-menu" id="sem">
+                          <li><a tabindex="-1" class="activa"  type="number"name="sem" id="sem1"><span>&#8544;</span> Sem</a></li>
+                          <li><a tabindex="-1" class="activa"Value="2" type="number" name="sem" id="sem2"><span>&#8545;</span> Sem</a></li>
+                          <li><a tabindex="-1"class="activa" Value="3" type="number" name="sem" id="sem3"><span>&#8546;</span> Sem</a></li>
+                          <li><a tabindex="-1" class="activa" Value="4" type="number" name="sem" id="sem4"><span>&#8547;</span> Sem</a></li>
+                          <li><a tabindex="-1" class="activa5" type="number" Value="5" name="sem" id="sem5"><span>&#8548;</span> Sem</a></li>
+                          <li><a tabindex="-1" class="activa" Value="6" type="number" name="sem" id="sem6"><span>&#8549;</span> Sem</a></li>
+                      </ul>
+                  </li>
+                  <li><a class="logoutbtn"> <span class="glyphicon glyphicon-log-out" style="color:#fff"></span> Logout</a></li>
+            </ul>
+          
+        <!-- <ul class="nav navbar-nav navbar-right">
+    
+        
+          <li class="dropdown">
+         <button class="btn btn-default but dropdown-toggle" type="button" data-toggle="dropdown" >
+        
+         <a> <span class="glyphicon glyphicon-edit"></span> Semester</a>
+        </button>
+        <a class="logoutbtn"> <span class="glyphicon glyphicon-log-out" style="color:#fff"></span> Logout</a>
+         <ul class="dropdown-menu">
+
+           <li class="dropdown-submenu">
+               <li><a tabindex="-1" class="activa"  type="number"name="sem" id="sem1"><span>&#8544;</span> Sem</a></li>
+               <li><a tabindex="-1" class="activa"Value="2" type="number" name="sem" id="sem2"><span>&#8545;</span> Sem</a></li>
+                <li><a tabindex="-1"class="activa" Value="3" type="number" name="sem" id="sem3"><span>&#8546;</span> Sem</a></li>
+                 <li><a tabindex="-1" class="activa" Value="4" type="number" name="sem" id="sem4"><span>&#8547;</span> Sem</a></li>
+                  <li><a tabindex="-1" class="activa5" type="number" Value="5" name="sem" id="sem5"><span>&#8548;</span> Sem</a></li>
+                   <li><a tabindex="-1" class="activa" Value="6" type="number" name="sem" id="sem6"><span>&#8549;</span> Sem</a></li>
+           </li> 
+           </li> 
+         </ul>
+       </div>
+         
+   </ul> -->
+    </div>
+  </nav>
+  <div class="errorsem">
+    <div class="container">
+      <h5 class="subchangesuccess">Semester changed successfully. please log in again to continue.</h5>
+      <p>This page will be redirected in 5 secs</p>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="container">
+      <div id="cardholder">
+        <div class="row subjectcard">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="Resources/JS/StudentDashboard.js"></script>
+</body>
+
+</html>
